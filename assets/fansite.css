@@ -4,3 +4,49 @@
     box-sizing: border-box;
 }
 
+.liens {
+    background-image: url(images/cinema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: antiquewhite;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(images/parrain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.affiche-accueil {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 30px;
+}
+
+.affiche-accueil img {
+    height: 450px;
+    border-radius: 8px;
+    width: 300px;
+}
