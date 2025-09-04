@@ -44,7 +44,6 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    color: antiquewhite;
     padding: 30px;
     align-items: center;
     height: 25px;
@@ -53,6 +52,17 @@
     font-size: 35px;
     display: flex;
     justify-content: space-around;
+}
+
+a {
+color: rgb(213, 190, 160);
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+color: #d9e2c3;
+text-decoration: underline;
 }
 
 .body {
@@ -81,52 +91,147 @@
     gap: 20px;
     justify-items: center;
     margin: 30px;
+    gap: 20px;
 }
 
 .affiche-accueil img {
     height: 450px;
     border-radius: 8px;
     width: 300px;
+    object-fit: cover;
+    transition: 0.5;
 }
 
-.page-film {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
+.affiche-accueil img:hover {
+    width: 120%;
+    cursor: pointer;
+}
+
+
+.fond {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
     background-image: url(images/fight-club2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
 }
 
+.page-film {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.page-film-wrap{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 20px;
+padding: 20px;
+}
 
 .video {
     border-radius: 20px;
-    left: 20px;
-    margin: 20px;
 }
 
 .texte-page {
     font-size: 16px;
-    margin: 20px;
-    flex: 1;
     background-color: #31131b;
     color: rgb(213, 190, 160);
-    margin-right: 300px;
     padding: 20px;
     border-radius: 20px;
+    width: 40%;
 }
 
 .distribution {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    margin: 30px; 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(25, 24, 24, 0.349);
+    color: rgb(213, 190, 160);
 }
 
-.distribution img {
-    height: 450px;
-    border-radius: 8px;
-    width: 300px;    
+.distribution h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.section-distribution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.acteurs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.acteurs {
+    text-align: center;
+}
+
+.acteurs img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.acteurs p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #31131b;
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.texte-footer {
+    font-size: 20px;
+    max-width: 50%;
+}
+
+.reseaux {
+    margin-top: 10px;
+}
+
+.reseaux img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.texte-footer2 a {
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.series {
+    
 }
