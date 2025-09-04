@@ -232,6 +232,66 @@ padding: 20px;
 }
 
 
-.series {
-    
+.body2 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(images/séries/dexter.jpg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #3b0205;
+    height: 100%;
+}
+
+.header2 {
+    background-color: #3b0205;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    height: 250px;
+    position: relative;
+    color: rgb(213, 190, 160);
+}
+
+.liens2 {
+    background-color: #3b0205;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fond2 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/la-ligne-verte2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+.footer2 {
+    background-color: #3b0205;
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
