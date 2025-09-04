@@ -116,7 +116,6 @@ text-decoration: underline;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
 
 .page-film {
@@ -279,6 +278,16 @@ padding: 20px;
     position: absolute;
     z-index: -1;
     background-image: url(images/la-ligne-verte2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+.fond3 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/scarface2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
