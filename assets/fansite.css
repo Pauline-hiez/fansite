@@ -293,6 +293,16 @@ padding: 20px;
     background-attachment: fixed;
     }
 
+.fond4 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/pulp-fiction2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }    
+
 .footer2 {
     background-color: #3b0205;
     height: 320px;
