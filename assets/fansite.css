@@ -5,23 +5,41 @@
 }
 
 .header {
-    background-image: url(images/cinema.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 40px;
+    background-color: #31131b;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
     padding: 30px;
-    width: 100%;
-    height: 500px;
+    height: 250px;
+    position: relative;
     color: rgb(213, 190, 160);
+}
 
+.texte-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+}
 
+.gif {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gif1 {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .liens {
-    background-color: rgb(48, 47, 47);
+    background-color: #31131b;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,7 +47,6 @@
     color: antiquewhite;
     padding: 30px;
     align-items: center;
-    border-radius: 10px;
     height: 25px;
     top: 0%;
     left: 0%;
@@ -43,11 +60,19 @@
     padding: 0;
     height: 100vh;
     background-image: url(images/parrain.jpg);
-    background-size: cover;
+    background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(48, 47, 47);
+    background-attachment: fixed;
+    background-color: #31131b;
     height: 100%;
+}
+
+.classique {
+    color: rgb(213, 190, 160);
+    text-align: center;
+    text-shadow: #31131b;
+    font-size: 30px;
 }
 
 .affiche-accueil {
@@ -72,21 +97,36 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: antiquewhite;
 }
 
 
 .video {
-    flex: 1;
-    padding: 20px;
+    border-radius: 20px;
+    left: 20px;
+    margin: 20px;
 }
 
 .texte-page {
     font-size: 16px;
     margin: 20px;
     flex: 1;
-    background-color: #333434;
-    color: white;
+    background-color: #31131b;
+    color: rgb(213, 190, 160);
     margin-right: 300px;
     padding: 20px;
+    border-radius: 20px;
+}
+
+.distribution {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 30px; 
+}
+
+.distribution img {
+    height: 450px;
+    border-radius: 8px;
+    width: 300px;    
 }
