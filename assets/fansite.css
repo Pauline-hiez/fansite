@@ -311,7 +311,17 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }     
+    }    
+    
+.fond6 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/psychose1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }      
 
 .footer2 {
     background-color: #3b0205;
