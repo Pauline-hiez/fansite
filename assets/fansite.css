@@ -1,7 +1,4 @@
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap" rel="stylesheet">);
-
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +7,9 @@
 }
 
 .header {
-    background-color: #31131b;
+    background-image: url(images/banniere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,19 +30,7 @@
     font-family: "Fascinate Inline", system-ui;
 }
 
-.gif {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
-.gif1 {
-    position: absolute;
-    left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .liens {
     background-color: #31131b;
@@ -63,14 +50,14 @@
 }
 
 a {
-color: rgb(213, 190, 160);
-text-decoration: none;
-font-weight: bold;
+    color: rgb(213, 190, 160);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-color: #d9e2c3;
-text-decoration: underline;
+    color: #d9e2c3;
+    text-decoration: underline;
 }
 
 .body {
@@ -136,14 +123,14 @@ text-decoration: underline;
     font-family: "Fascinate Inline", system-ui;
 }
 
-.page-film-wrap{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-width: 100%;
-gap: 20px;
-padding: 20px;
+.page-film-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
 }
 
 .video {
@@ -259,6 +246,9 @@ padding: 20px;
 
 .header2 {
     background-color: #3b0205;
+    background-image: url(images/banniere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +285,7 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }
+}
 
 .fond3 {
     width: 100%;
@@ -305,7 +295,7 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }
+}
 
 .fond4 {
     width: 100%;
@@ -315,8 +305,8 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }  
-    
+}
+
 .fond5 {
     width: 100%;
     position: absolute;
@@ -325,8 +315,8 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }    
-    
+}
+
 .fond6 {
     width: 100%;
     position: absolute;
@@ -335,21 +325,47 @@ padding: 20px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    }   
-    
-    
-    
+}
+
+.liens-contact {
+    background-color: #ef5f05;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-contact {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(images/séries/orange-mecanique.jpg);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ef5f05;
+    height: 100%;
+}
+
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: "Fascinate Inline", system-ui;
-    background-image: url(images/séries/orange-mecanique.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .formulaire {
@@ -357,7 +373,7 @@ padding: 20px;
     width: 420px;
     border-radius: 20px;
     border: 2px solid white;
-    background-color: #d9e2c359;
+    background-color: #b75c1287;
 }
 
 .formulaire h1 {
@@ -377,6 +393,8 @@ padding: 20px;
     width: 100%;
     padding: 15px;
     border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
     outline: none;
     background-color: transparent;
     border: 2px solid white;
@@ -406,6 +424,12 @@ padding: 20px;
     color: rgb(195, 121, 11);
 }
 
+textarea {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
 .footer2 {
     background-color: #3b0205;
     height: 320px;
@@ -418,3 +442,15 @@ padding: 20px;
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
 }
+
+.footer3 {
+    background-color: #ef5f05;
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
