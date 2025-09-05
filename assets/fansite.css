@@ -348,6 +348,98 @@ a:hover {
     gap: 40px;
 }
 
+.header5 {
+    background-color: #025335;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+    color: rgb(213, 190, 160);
+}
+
+.header5 img {
+    width: 400px;
+    height: auto;
+}
+
+.texte-header5 h1 {
+    max-width: 400px;
+}
+
+.texte-header5 {
+    text-align: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.liens-faq {
+    background-color: #025335;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fond-faq {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(images/seigneur-anneaux.webp);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #025335;
+    height: 100%;
+}
+
+.page-faq-wrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texte-page-faq {
+    font-size: 16px;
+    font-family: system-ui;
+    background-color: #025335;
+    color: rgb(213, 190, 160);
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.bloc-faq {
+    background-color: #083728;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+
 
 .liens2 {
     background-color: #3b0205;
@@ -627,3 +719,17 @@ textarea {
     font-family: "Fascinate Inline", system-ui;
     margin-top: 30px;
 }  
+
+.footer5 {
+    background-color: #025335;
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
+    margin-top: 30px;
+} 
