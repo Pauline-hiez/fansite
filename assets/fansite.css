@@ -9,7 +9,7 @@
 .header {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
     font-size: 30px;
     font-family: "Fascinate Inline", system-ui;
     padding: 30px;
@@ -19,19 +19,22 @@
 }
 
 .header img {
-    width: 200px;
+    width: 400px;
     height: auto;
+}
+
+.texte-header h1 {
+    max-width: 400px;
 }
 
 .texte-header {
     text-align: center;
     align-items: center;
-    max-width: 300px;
     font-family: "Fascinate Inline", system-ui;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
-
-
 
 .liens {
     background-color: #31131b;
@@ -140,7 +143,7 @@ a:hover {
 
 .texte-page {
     font-size: 16px;
-    font-family: "Fascinate Inline", system-ui;
+    font-family: system-ui;
     background-color: #31131b;
     color: rgb(213, 190, 160);
     padding: 20px;
@@ -248,7 +251,6 @@ a:hover {
 
 .header2 {
     background-color: #3b0205;
-    background-image: url(images/banniere.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -257,10 +259,95 @@ a:hover {
     text-align: center;
     font-size: 30px;
     padding: 30px;
-    height: 250px;
+    height: 400px;
     position: relative;
     color: rgb(213, 190, 160);
 }
+
+.header2 img {
+    width: 400px;
+    height: auto;
+}
+
+.texte-header2 h1 {
+    max-width: 400px;
+}
+
+.texte-header2 {
+    text-align: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header3 {
+    background-color: #ef5f05;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+    color: rgb(213, 190, 160);
+}
+
+.header3 img {
+    width: 400px;
+    height: auto;
+}
+
+.texte-header3 h1 {
+    max-width: 400px;
+}
+
+.texte-header3 {
+    text-align: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header4 {
+    background-color: #ef5f05;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+    color: rgb(213, 190, 160);
+}
+
+.header4 img {
+    width: 400px;
+    height: auto;
+}
+
+.texte-header4 h1 {
+    max-width: 400px;
+}
+
+.texte-header4 {
+    text-align: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 
 .liens2 {
     background-color: #3b0205;
@@ -471,9 +558,15 @@ textarea {
     justify-content: space-around;
 }
 
+.page-film-wrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .texte-page-presentation {
     font-size: 16px;
-    font-family: "Fascinate Inline", system-ui;
+    font-family: system-ui;
     background-color: #03013a;
     color: rgb(213, 190, 160);
     padding: 20px;
@@ -491,7 +584,7 @@ textarea {
     padding: 20px 40px;
     border-radius: 8px;
     text-align: center;
-    width: 200px;
+    width: 100%;
 }
 
 
@@ -532,4 +625,5 @@ textarea {
     padding-left: 200px;
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
+    margin-top: 30px;
 }  
