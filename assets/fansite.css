@@ -7,27 +7,28 @@
 }
 
 .header {
-    background-image: url(images/banniere.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: row;
     font-size: 30px;
     font-family: "Fascinate Inline", system-ui;
     padding: 30px;
-    height: 250px;
-    position: relative;
+    min-height: 250px;
     color: rgb(213, 190, 160);
+    background-color: #31131b;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
 }
 
 .texte-header {
-    display: flex;
     text-align: center;
     align-items: center;
     max-width: 300px;
     font-family: "Fascinate Inline", system-ui;
+    margin: 0;
 }
 
 
@@ -228,6 +229,7 @@ a:hover {
     margin: 20px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -430,6 +432,69 @@ textarea {
     padding-top: 10px;
 }
 
+.header3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: "Fascinate Inline", system-ui;
+    padding: 30px;
+    min-height: 250px;
+    color: rgb(213, 190, 160);
+    background-color: #03013a;
+}
+
+.fond-presentation {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/dark-vador.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.liens-presentation {
+    background-color: #03013a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    justify-content: space-around;
+}
+
+.texte-page-presentation {
+    font-size: 16px;
+    font-family: "Fascinate Inline", system-ui;
+    background-color: #03013a;
+    color: rgb(213, 190, 160);
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.bloc {
+    background-color: #03013a;
+    padding: 20px 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+
 .footer2 {
     background-color: #3b0205;
     height: 320px;
@@ -454,3 +519,17 @@ textarea {
     padding-left: 200px;
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
+}    
+
+.footer4 {
+    background-color: #03013a;
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
+}  
