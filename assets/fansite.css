@@ -1,3 +1,8 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap" rel="stylesheet">);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +16,7 @@
     align-items: center;
     text-align: center;
     font-size: 30px;
+    font-family: "Fascinate Inline", system-ui;
     padding: 30px;
     height: 250px;
     position: relative;
@@ -22,6 +28,7 @@
     text-align: center;
     align-items: center;
     max-width: 300px;
+    font-family: "Fascinate Inline", system-ui;
 }
 
 .gif {
@@ -50,6 +57,7 @@
     top: 0%;
     left: 0%;
     font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
     display: flex;
     justify-content: space-around;
 }
@@ -81,7 +89,7 @@ text-decoration: underline;
 .classique {
     color: rgb(213, 190, 160);
     text-align: center;
-    text-shadow: #31131b;
+    font-family: "Fascinate Inline", system-ui;
     font-size: 30px;
 }
 
@@ -124,7 +132,8 @@ text-decoration: underline;
     justify-content: center;
     align-items: center;
     gap: 40px;
-
+    font-size: 30px;
+    font-family: "Fascinate Inline", system-ui;
 }
 
 .page-film-wrap{
@@ -143,6 +152,7 @@ padding: 20px;
 
 .texte-page {
     font-size: 16px;
+    font-family: "Fascinate Inline", system-ui;
     background-color: #31131b;
     color: rgb(213, 190, 160);
     padding: 20px;
@@ -158,6 +168,7 @@ padding: 20px;
     padding: 40px 20px;
     background-color: rgba(25, 24, 24, 0.349);
     color: rgb(213, 190, 160);
+    font-family: "Fascinate Inline", system-ui;
 }
 
 .distribution h2 {
@@ -206,11 +217,13 @@ padding: 20px;
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
 }
 
 .texte-footer {
     font-size: 20px;
     max-width: 50%;
+    font-family: "Fascinate Inline", system-ui;
 }
 
 .reseaux {
@@ -269,6 +282,7 @@ padding: 20px;
     top: 0%;
     left: 0%;
     font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
     display: flex;
     justify-content: space-around;
 }
@@ -333,4 +347,5 @@ padding: 20px;
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
 }
