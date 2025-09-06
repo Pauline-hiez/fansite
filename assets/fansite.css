@@ -15,7 +15,7 @@
     padding: 30px;
     min-height: 250px;
     color: rgb(213, 190, 160);
-    background-color: #31131b;
+    background: linear-gradient(to bottom, #1f0c11, #31131b);
 }
 
 .header img {
@@ -82,6 +82,7 @@ a:hover {
     text-align: center;
     font-family: "Fascinate Inline", system-ui;
     font-size: 30px;
+    background-color: #2001039b;
 }
 
 .affiche-accueil {
@@ -199,7 +200,7 @@ a:hover {
 }
 
 .footer {
-    background-color: #31131b;
+    background: linear-gradient(to top, #1f0c11, #31131b);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
@@ -250,7 +251,7 @@ a:hover {
 }
 
 .header2 {
-    background-color: #3b0205;
+    background: linear-gradient(to bottom, #200103,#3b0205);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -283,7 +284,7 @@ a:hover {
 }
 
 .header3 {
-    background-color: #ef5f05;
+    background: linear-gradient(to bottom, #0e1301, #03013a);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -316,7 +317,7 @@ a:hover {
 }
 
 .header4 {
-    background-color: #ef5f05;
+    background: linear-gradient(to bottom, #8e3803, #ef5f05);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -349,7 +350,7 @@ a:hover {
 }
 
 .header5 {
-    background-color: #025335;
+    background: linear-gradient(to bottom,#041c14, #025335);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -411,6 +412,12 @@ a:hover {
     height: 100%;
 }
 
+.page-faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .page-faq-wrap2 {
     display: flex;
     flex-direction: column;
@@ -440,6 +447,9 @@ a:hover {
     width: 100%;
 }
 
+.fix {
+    margin-top: 20px;
+}
 
 .liens2 {
     background-color: #3b0205;
@@ -681,7 +691,7 @@ textarea {
 
 
 .footer2 {
-    background-color: #3b0205;
+    background: linear-gradient(to top, #200103,#3b0205);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
@@ -694,7 +704,7 @@ textarea {
 }
 
 .footer3 {
-    background-color: #ef5f05;
+    background: linear-gradient(to top, #8e3803, #ef5f05);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
@@ -707,7 +717,7 @@ textarea {
 }    
 
 .footer4 {
-    background-color: #03013a;
+    background: linear-gradient(to top, #0e1301, #03013a);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
@@ -721,7 +731,7 @@ textarea {
 }  
 
 .footer5 {
-    background-color: #025335;
+    background: linear-gradient(to top, #041c14, #025335);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
