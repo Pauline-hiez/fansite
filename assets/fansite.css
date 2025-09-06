@@ -251,7 +251,7 @@ a:hover {
 }
 
 .header2 {
-    background: linear-gradient(to bottom, #200103,#3b0205);
+    background: linear-gradient(to bottom, #200103, #3b0205);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -282,6 +282,7 @@ a:hover {
     flex-direction: row;
     gap: 40px;
 }
+
 
 .header3 {
     background: linear-gradient(to bottom, #0e1301, #03013a);
@@ -350,7 +351,7 @@ a:hover {
 }
 
 .header5 {
-    background: linear-gradient(to bottom,#041c14, #025335);
+    background: linear-gradient(to bottom, #041c14, #025335);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -412,7 +413,7 @@ a:hover {
     height: 100%;
 }
 
-.page-faq{
+.page-faq {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -539,7 +540,7 @@ a:hover {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url(images/séries/orange-mecanique.jpg);
+    background-image: url(images/orange-mecanique2.jpg);
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -691,7 +692,7 @@ textarea {
 
 
 .footer2 {
-    background: linear-gradient(to top, #200103,#3b0205);
+    background: linear-gradient(to top, #200103, #3b0205);
     height: 320px;
     padding: 40px;
     color: rgb(213, 190, 160);
@@ -714,7 +715,7 @@ textarea {
     padding-left: 200px;
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
-}    
+}
 
 .footer4 {
     background: linear-gradient(to top, #0e1301, #03013a);
@@ -728,7 +729,7 @@ textarea {
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
     margin-top: 30px;
-}  
+}
 
 .footer5 {
     background: linear-gradient(to top, #041c14, #025335);
@@ -742,4 +743,4 @@ textarea {
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
     margin-top: 30px;
-} 
+}
