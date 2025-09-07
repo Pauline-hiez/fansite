@@ -283,6 +283,80 @@ a:hover {
     gap: 40px;
 }
 
+.carrousel {
+    height: 800px;
+    width: 600px;
+    position: relative;
+    margin: 200px auto;
+    border: 25px solid #3b0205;
+    border-radius: 20px;
+}
+
+.cadre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4 ease-in-out;
+}
+
+.image1 {
+    z-index: 2;
+    opacity: 1;
+    background-image: url(images/séries/vikings.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(images/séries/game-of-thrones.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(images/séries/breaking-bad.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(images/séries/friends.jpg);
+    background-size: cover;
+}
+
+.fleche {
+    border: solid #3b0205;
+    padding: 12px;
+    border-width: 0 5px 5px 0;
+}
+
+.precedente, .suivante {
+    position: absolute;
+    top: 200px;
+}
+
+.precedente {
+    left: 45px;
+    transform: rotate(135deg);
+}
+
+.suivante {
+    right: 45px;
+    transform: rotate(-45deg);
+}
+
+*:target ~ .image1 {
+    opacity: 0;
+}
+
+#image1:target ~ .image1 {
+    opacity: 1;
+}
+
+#image2:target ~ .image2, #image3:target ~ .image3, #image4:target ~ .image4 {
+    z-index: 2;
+    opacity: 1;
+}
 
 .header3 {
     background: linear-gradient(to bottom, #0e1301, #03013a);
