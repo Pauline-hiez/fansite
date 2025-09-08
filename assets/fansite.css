@@ -288,7 +288,6 @@ a:hover {
     width: 600px;
     position: relative;
     margin: 200px auto;
-    border: 25px solid #3b0205;
     border-radius: 20px;
 }
 
@@ -300,12 +299,13 @@ a:hover {
     right: 0;
     opacity: 0;
     transition: all 0.4 ease-in-out;
+    border-radius: 10px;
 }
 
 .image1 {
     z-index: 2;
     opacity: 1;
-    background-image: url(images/séries/vikings.jpg);
+    background-image: url(images/séries/vikings2.jpg);
     background-size: cover;
 }
 
@@ -325,14 +325,15 @@ a:hover {
 }
 
 .fleche {
-    border: solid #3b0205;
+    border: solid rgb(213, 190, 160);
     padding: 12px;
     border-width: 0 5px 5px 0;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.7));
 }
 
 .precedente, .suivante {
     position: absolute;
-    top: 200px;
+    top: 50%;
 }
 
 .precedente {
@@ -762,6 +763,122 @@ textarea {
     border-radius: 8px;
     text-align: center;
     width: 100%;
+}
+
+.header-nouveaute {
+    background: linear-gradient(to bottom, #160248, #234ab7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    height: 400px;
+    position: relative;
+    color: rgb(213, 190, 160);
+}
+
+.header-nouveaute img {
+    width: 400px;
+    height: auto;
+}
+
+.texte-header-nouveaute h1 {
+    max-width: 400px;
+}
+
+.texte-header-nouveaute {
+    text-align: center;
+    align-items: center;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.liens-nouveaute {
+    background-color: #234ab7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    height: 25px;
+    top: 0%;
+    left: 0%;
+    font-size: 35px;
+    font-family: "Fascinate Inline", system-ui;
+    display: flex;
+    justify-content: space-around;
+}
+
+.classique-nouveaute {
+    color: rgb(213, 190, 160);
+    text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 40px;
+    background-color: #234ab7a9;
+}
+
+.fond-nouveaute {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/harry-potter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-nouveaute {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.film {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.texte-nouveaute {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-family: system-ui;
+    background-color: #234ab7;
+    color: rgb(213, 190, 160);
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    max-width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.video-nouveaute iframe {
+    width: 650px;
+    height: 400px;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.footer-nouveaute {
+    background: linear-gradient(to top, #160248, #234ab7);
+    height: 320px;
+    padding: 40px;
+    color: rgb(213, 190, 160);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Fascinate Inline", system-ui;
 }
 
 
