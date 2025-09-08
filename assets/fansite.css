@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Story+Script&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -934,4 +935,125 @@ textarea {
     padding-right: 200px;
     font-family: "Fascinate Inline", system-ui;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .header, .header2, .header3, .header4, .header5, .header-nouveaute {
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .header img,
+  .header2 img,
+  .header3 img,
+  .header4 img,
+  .header5 img,
+  .header-nouveaute img {
+    max-width: 30%;
+  }
+
+  .texte-header,
+  .texte-header2,
+  .texte-header3,
+  .texte-header4,
+  .texte-header5,
+  .texte-header-nouveaute {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .affiche-accueil {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50%;
+  }
+
+  .page-film-wrap,
+  .film {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .texte-page,
+  .texte-page-faq,
+  .texte-page-presentation,
+  .texte-nouveaute {
+    width: 80%;
+    max-width: none;
+  }
+
+  .video-nouveaute iframe {
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
+  }
+
+  .footer, .footer2, .footer3, .footer4, .footer5, .footer-nouveaute {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .liens,
+  .liens2,
+  .liens-faq,
+  .liens-contact,
+  .liens-presentation,
+  .liens-nouveaute {
+    flex-direction: column;
+    font-size: 24px;
+    gap: 15px;
+    height: auto;
+  }
+
+  .affiche-accueil {
+    grid-template-columns: 1fr;
+  }
+
+  .affiche-accueil img {
+    width: 90%;
+    height: auto;
+    margin-left: 50%;
+  }
+
+  .texte-header h1,
+  .texte-header2 h1,
+  .texte-header3 h1,
+  .texte-header4 h1,
+  .texte-header5 h1,
+  .texte-header-nouveaute h1 {
+    font-size: 1.5rem;
+    max-width: 90%;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+
+  .formulaire {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .carrousel {
+    max-width: 100%;
+    margin: 50px auto;
+  }
+
+  .section-distribution {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .acteurs img {
+    width: 150px;
+  }
 }
