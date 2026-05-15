@@ -1,2 +1,14 @@
-DirectoryIndex index.html
-Options -Indexes
+RewriteEngine On
+
+# URL propre pour les pages
+RewriteRule ^contact/?$ contact.html [L]
+RewriteRule ^faq/?$ faq.html [L]
+RewriteRule ^series/?$ series.html [L]
+RewriteRule ^nouveautes/?$ nouveautes.html [L]
+RewriteRule ^fight-club/?$ fight-club.html [L]
+RewriteRule ^pulp-fiction/?$ pulp-fiction.html [L]
+RewriteRule ^scarface/?$ scarface.html [L]
+RewriteRule ^psychose/?$ psychose.html [L]
+RewriteRule ^la-ligne-verte/?$ la-ligne-verte.html [L]
+RewriteRule ^edward-aux-mains-dargent/?$ edward-aux-mains-dargent.html [L]
+RewriteRule ^qui-sommes-nous/?$ qui-sommes-nous.html [L]
